@@ -1,0 +1,62 @@
+body {
+    background-color: #eef2ff;
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4455aa;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+#post-form {
+    padding: 10px 20px;
+    background-color: #dde;
+}
+
+#post-form input,
+#post-form textarea {
+    width: 100%;
+    margin-bottom: 8px;
+    padding: 5px;
+    font-family: monospace;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+#post-form button {
+    padding: 8px 15px;
+    cursor: pointer;
+    background-color: #4455aa;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+.post {
+    background-color: #fff;
+    border: 1px solid #aaa;
+    margin: 10px 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.post img {
+    max-width: 200px;
+    display: block;
+    margin-top: 10px;
+}
+
+.name {
+    font-weight: bold;
+    color: #225;
+}
+
+.time {
+    font-size: 0.8em;
+    color: #666;
+    margin-bottom: 5px;
+}
